@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>reactor</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import ReactorKit
+import RxSwift
+
+final class &lt;#Name#&gt;: Reactor {
+  enum Action {
+  }
+
+  enum Mutation {
+  }
+
+  struct State {
+  }
+
+  let initialState: State
+
+  init() {
+    self.initialState = State()
+  }
+
+  func mutate(action: Action) -&gt; Observable&lt;Mutation&gt; {
+    return .empty()
+  }
+
+  func reduce(state: State, mutation: Mutation) -&gt; State {
+    return state
+  }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>31A05F16-117F-41EA-A86F-36F8A825B322</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ReactorKit - Reactor</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
