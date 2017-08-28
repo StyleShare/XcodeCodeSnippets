@@ -25,6 +25,7 @@ final class &lt;#Name#&gt;: Reactor {
   let initialState: State
 
   init() {
+    defer { _ = self.state }
     self.initialState = State()
   }
 
