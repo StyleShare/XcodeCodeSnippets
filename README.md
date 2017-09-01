@@ -13,6 +13,13 @@ cp ReactorKitCodeSnippets/CodeSnippets/* $HOME/Library/Developer/Xcode/UserData/
 rm -rf ReactorKitCodeSnippets
 ```
 
+Or if you have a cloned repository:
+
+```bash
+cd /path/to/repo
+make
+```
+
 ## License
 
 All code snippets are under MIT license. See the [LICENSE](LICENSE) for more info.
