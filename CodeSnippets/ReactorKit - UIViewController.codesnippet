@@ -14,7 +14,7 @@
 import ReactorKit
 import RxSwift
 
-final class <#ViewController#>: BaseViewController, View {
+final class &lt;#ViewController#&gt;: BaseViewController, View {
 
   // MARK: Constants
 
@@ -36,7 +36,7 @@ final class <#ViewController#>: BaseViewController, View {
 
   // MARK: Initializing
 
-  init(reactor: <#Reactor#>) {
+  init(reactor: &lt;#Reactor#&gt;) {
     defer { self.reactor = reactor }
     super.init()
   }
@@ -58,11 +58,11 @@ final class <#ViewController#>: BaseViewController, View {
 
   // MARK: Binding
 
-  func bind(reactor: <#Reactor#>) {
+  func bind(reactor: &lt;#Reactor#&gt;) {
   }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5B08A48B-BB86-4A17-9BCC-ED75FD9E9EC2</string>
+	<string>144BD58E-D71F-4BC1-8105-0F8DDF8E9FA0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
