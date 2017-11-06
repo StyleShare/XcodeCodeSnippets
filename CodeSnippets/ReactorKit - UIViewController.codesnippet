@@ -18,13 +18,13 @@ final class &lt;#ViewController#&gt;: BaseViewController, View {
 
   // MARK: Constants
 
-  fileprivate enum Metric {
+  private enum Metric {
   }
 
-  fileprivate enum Font {
+  private enum Font {
   }
 
-  fileprivate enum Color {
+  private enum Color {
   }
 
 
