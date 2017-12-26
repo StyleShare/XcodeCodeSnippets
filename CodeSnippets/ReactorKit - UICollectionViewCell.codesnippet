@@ -14,7 +14,7 @@
 import ReactorKit
 import RxSwift
 
-final class &lt;#Name#&gt;: UICollectionViewCell, View {
+final class &lt;#Name#&gt;: BaseCollectionViewCell, View {
 
   // MARK: Constants
 
@@ -30,7 +30,6 @@ final class &lt;#Name#&gt;: UICollectionViewCell, View {
 
   // MARK: Properties
 
-  var disposeBag = DisposeBag()
 
 
   // MARK: UI
