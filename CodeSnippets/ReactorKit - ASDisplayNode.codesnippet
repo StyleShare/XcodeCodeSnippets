@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>displaynode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import AsyncDisplayKit
+import BonMot
+import Pure
+import ReactorKit
+import RxSwift
+
+final class &lt;#Name#&gt;: ASDisplayNode, View, FactoryModule {
+
+  // MARK: Module
+
+  struct Dependency {
+  }
+
+  struct Payload {
+    let reactor: &lt;#Reactor#&gt;
+  }
+
+
+  // MARK: Constants
+
+  private enum Typo {
+  }
+
+
+  // MARK: Properties
+
+  private let dependency: Dependency
+  private let payload: Payload
+
+  var disposeBag = DisposeBag()
+
+
+  // MARK: UI
+
+
+
+  // MARK: Initializing
+
+  init(dependency: Dependency, payload: Payload) {
+    self.dependency = dependency
+    self.payload = payload
+    super.init()
+    self.automaticallyManagesSubnodes = true
+  }
+
+
+  // MARK: Node Lifecycle
+
+  override func didLoad() {
+    super.didLoad()
+    self.reactor = self.payload.reactor
+  }
+
+
+  // MARK: Binding
+
+  func bind(reactor: &lt;#Reactor#&gt;) {
+    // State
+
+  }
+
+
+  // MARK: Layout
+
+  override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
+    
+  }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F41D2894-7422-42E4-BEF9-3A5BB135010C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ReactorKit - ASDisplayNode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
