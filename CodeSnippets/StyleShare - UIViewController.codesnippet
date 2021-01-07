@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import StyleShareUI
+
+final class &lt;#name#&gt;: BaseViewController, View, FactoryModule {
+
+  // MARK: Module
+
+  struct Dependency {
+  }
+
+  struct Payload {
+  }
+
+
+  // MARK: Constants
+
+  private enum Typo {
+  }
+
+
+  // MARK: Properties
+
+
+  // MARK: UI
+
+
+  // MARK: Initializing
+
+  init(dependency: Dependency, payload: Payload) {
+    defer { self.reactor = payload.reactor }
+    super.init()
+  }
+
+
+  // MARK: View Life Cycle
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
+
+
+  // MARK: Binding
+
+  func bind(reactor: &lt;#name#&gt;) {
+  }
+
+
+  // MARK: Layout
+
+  override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -&gt; ASLayoutSpec {
+    return ASLayoutSpec()
+  }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>96005E4B-F7F1-493E-8858-2C6D6FB8C537</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>StyleShare - UIViewController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
