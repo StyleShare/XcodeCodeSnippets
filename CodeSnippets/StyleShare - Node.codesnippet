@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import StyleShareReactive
+import StyleShareUI
+
+final class &lt;#name#&gt;: ASDisplayNode {
+
+  // MARK: Module
+
+  struct Payload {
+  }
+
+
+  // MARK: Constants
+
+  private enum Typo {
+  }
+
+
+  // MARK: Properties
+
+  private let payload: Payload
+
+
+  // MARK: UI
+
+
+  // MARK: Initializing
+
+  init(payload: Payload) {
+    self.payload = payload
+    super.init()
+    self.automaticallyManagesSubnodes = true
+  }
+
+  
+  // MARK: LayoutSpec
+
+  override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -&gt; ASLayoutSpec {
+    return ASInsetLayoutSpec()
+  }
+
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5DC94BAC-BAF9-4300-8D39-9B6964D4E3D1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>StyleShare - Node</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
