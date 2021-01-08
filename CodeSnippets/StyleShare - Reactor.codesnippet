@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import StyleShareReactive
+
+final class &lt;#name#&gt;: Reactor, FactoryModule {
+
+  // MARK: Module
+
+  struct Dependency {
+  }
+
+  struct Payload {
+  }
+
+
+  enum Action {
+  }
+
+  enum Mutation {
+  }
+
+  struct State {
+  }
+
+
+  // MARK: Properties
+
+  let initialState: State
+
+
+  // MARK: Initializing
+
+  init(dependency: Dependency, payload: Payload) {
+    defer { _ = self.state }
+    self.initialState = State()
+  }
+
+  func mutate(action: Action) -&gt; Observable&lt;Mutation&gt; {
+    return .empty()
+  }
+
+  func reduce(state: State, mutation: Mutation) -&gt; State {
+    return state
+  }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>84D36537-6B60-4299-80E8-122607BF40D9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>StyleShare - Reactor</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
